@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.item {
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 1em;
+    width: 23%;
+    margin: 1%;
+    background-color: #e6e6e6;
+    /*元 #dcdcdc*/
+}
+
+.grey {
+    background-color: darkgrey;
+}
+
+.max-wrap {
+    max-width: 1024px;
+}
+
+.frame-text {
+    text-decoration: none;
+    color: #000;
+    margin-left: 3px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.frame-text-date {
+    text-decoration: none;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(101, 101, 101);
+}
+
+.hide {
+    display: block;
+}
+
+@media screen and (max-width: 500px) {
+    .item {
+        float: none;
+        width: auto;
+    }
+    .hide {
+        display: none;
+    }
+}
