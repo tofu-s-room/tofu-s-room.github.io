@@ -3,7 +3,7 @@
     font-family: 'tegaki';
     font-style: normal;
     font-weight: 400;
-    src: url(https://anto565.github.io/font/yosugara.woff) format('woff');
+    src: url(/font/yosugara.woff) format('woff');
 }
 
 .tegaki {
@@ -14,7 +14,7 @@
     font-family: 'gosic';
     font-style: normal;
     font-weight: 400;
-    src: url(https://anto565.github.io/font/YasashisaGothicBold-V2.woff) format('woff');
+    src: url(/font/YasashisaGothicBold-V2.woff) format('woff');
 }
 
 html,
@@ -26,7 +26,7 @@ body {
     font-family: 'kowai';
     font-style: normal;
     font-weight: 400;
-    src: url(https://anto565.github.io/font/g_comichorrorR_freeR.woff) format('woff');
+    src: url(/font/g_comichorrorR_freeR.woff) format('woff');
 }
 
 .kowai {
