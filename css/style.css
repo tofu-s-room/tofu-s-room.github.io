@@ -370,6 +370,10 @@ footer {
     color: rgb(101, 101, 101);
 }
 
+.hed-margin {
+    margin-top: 64px;
+}
+
 
 /*
 @media screen and (max-width: 369px) {

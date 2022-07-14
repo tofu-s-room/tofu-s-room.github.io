@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!--元として使う(開発画面)-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>正常配信チェック</title>
+    <meta name="keywords" content="test,正常,チェック,配信,正常配信チェック">
+    <link rel="image/png" href="../../assets/img/logo/toufukun.png">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/logo/toufukun.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../../assets/img/logo/toufukun.png">
+    <link rel="icon" href="../../assets/img/logo/toufukun.png">
+    <link rel="apple-touch-icon" href="../../assets/img/logo/toufukun.png" sizes="180x180">
+    <link href="../../css/style.css" rel="stylesheet" />
+    <link href="../../css/font.css" rel="stylesheet">
+    <link href="../../css/header.css" rel="stylesheet">
+    <link rel="image/png" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png">
+    <link rel="icon" type="image/x-icon" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png">
+    <link rel="icon" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png">
+    <link rel="apple-touch-icon" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png" sizes="180x180">
+</head>
+
+<body>
+    <header>
+        <a href="/">
+            <img style="height: 25px;" src="../../assets/img/logo/toufunoheya-head.png">
+        </a>
+        <!--
+            <nav>
+            <ul>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">COMPANY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        
+        </nav>
+    -->
+    </header>
+    <div class="hed-margin"></div>
+    <center>
+        <br>
+        <video controls autoplay playinline preload="auto" width="100%" height="100%" controlslist="nodownload" poster="../video-img/playback/img1/tofu_op.png" class="vw-95">
+                    <source src="../../video/video1/toufu_op_2022.mp4">
+                    <p>すみません動画の再生に対応していません</p>
+                </video>
+        <h2>とうふの部屋オープニング</h2>
+        <h5>2022 tofu's room opening.</h5>
+    </center>
+    <h5 class="video-date-views">703,665 回視聴・投稿日 7月14日, 2022</h5>
+    <br>
+    <center>
+        <iframe src="../video-below/index.html" class="vw-96 video-below-if" style="border:0;" height="" frameborder="0" scrolling="no" onload="func1()" id="sub" allowfullscreen></iframe>
+    </center>
+    <script type="text/javascript">
+        localStorage['PageAccess'] = true; // false; //
+        // localStorage['PageAccess'] = false; // true; // Clearしたい場合
+        if (screen.width <= 220) {
+            document.location = "../../error/px-error.html";
+        }
+        // below 自動調整 //
+        const sub = document.getElementById("sub");
+
+        function func1() {
+            sub.style.width = sub.contentWindow.document.body.scrollWidth + "px";
+            sub.style.height = sub.contentWindow.document.body.scrollHeight + "px";
+        }
+    </script>
+</body>
+
+</html>
