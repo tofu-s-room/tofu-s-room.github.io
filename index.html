@@ -8,6 +8,7 @@
     <title>2022 とうふの部屋.</title>
     <meta name="description" content="とうふの部屋,Tofu's roomで動画を楽しみましょう。">
     <meta name="keywords" content="動画,video,とうふの部屋,とうふくん,top,トップページ,Tofu's room">
+    <link href="css/loading.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font.css" rel="stylesheet">
     <link href="css/pc-only.css" rel="stylesheet">
@@ -37,13 +38,14 @@
     <meta name="google-site-verification" content="" />
 </head>
 
-<body onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;" id="top" class="gosic id">
+<body class="mv" id="content" onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;" id="top" class="gosic id">
 
-    <header>
-        <a href="/">
-            <img style="height: 25px;" src="assets/img/logo/toufunoheya-head.png">
-        </a>
-        <!--
+    <div id="page">
+        <header>
+            <a href="/">
+                <img style="height: 25px;" src="assets/img/logo/toufunoheya-head.png">
+            </a>
+            <!--
             <nav>
             <ul>
                 <li><a href="#">ABOUT</a></li>
@@ -54,69 +56,64 @@
         
         </nav>
     -->
-    </header>
-    <!--
-    <div class="search-margin">
-        <script async src="https://cse.google.com/cse.js?cx=3d6334d6cc4fb5f40"></script>
-        <div class="gcse-search"></div>
-    </div>
--->
-    <img style="margin-top: 60px;" class="resizeimage" src="advertisement/bar-advertisement/img1/Tofu's room.png" alt="">
-    <noscript>
+        </header>
+        <img style="margin-top: 60px;" class="resizeimage" src="advertisement/bar-advertisement/img1/Tofu's room.png" alt="">
+        <noscript>
         <h1 style="margin-left:3%;">このページではjavascriptを使用しています。javascriptをオンにして下さい。<a href="page=/system/no-javascript.html">詳細</a></h1>
     </noscript>
 
-    <div style="clear: both; content: ''; display: block;">
-        <!--<a class="nobottomline" href="/?広告">
+        <div style="clear: both; content: ''; display: block;">
+            <!--<a class="nobottomline" href="/?広告">
             <div class="item border-top-frame">
                 <img class="border-top-img" style="width: 100%; " src="advertisement/img/img1/とうふの部屋近日公開.png">
                 <p class="frame-text" style="text-align: center;">広告</p>
             </div>
         </a>-->
-        <a class="nobottomline" href="https://github.com/tofu-s-room/tofu-s-room-set-up-windows-version">
-            <div class="item border-top-frame">
-                <img class="border-top-img" style="width: 100%; " src="advertisement/img/img1/windows-new-soft.png">
-                <h6 class="frame-text-date">クリックでダウンロードサイトへ</h6>
-                <p class="frame-text" style="text-align: center; margin-top: 0px;">広告</p>
-            </div>
-        </a>
-        <a class="nobottomline" href="page=/redirect/redirect-miya-kyu-gurupu-top">
-            <div class="item border-top-frame">
-                <img class="border-top-img" style="width: 100%; " src="advertisement/img/img1/宮急-広告.png">
-                <h6 class="frame-text-date">サイトにアクセス</h6>
-                <p class="frame-text" style="text-align: center; margin-top: 0px;">紹介</p>
-            </div>
-        </a>
-        <a class="nobottomline" href="/?広告">
-            <div class="hide item border-top-frame">
-                <img class="border-top-img" style="width: 100%; " src="advertisement/img/img1/とうふの部屋近日公開.png">
-                <p class="frame-text" style="text-align: center;">広告</p>
-            </div>
-        </a>
-        <a class="nobottomline" href="watch/video1/tofu_op_2022">
-            <div class="item border-top-frame">
-                <img class="border-top-img" style="width: 100%;" src="watch/video-img/top/img1/tofu_op.png">
-                <h6 class="frame-text-date">投稿日 7月14日, 2022</h6>
-                <p class="frame-text" style="text-align: center; margin-top: 0px;">とうふの部屋オープニング</p>
-            </div>
-        </a>
-    </div>
-    <div style="clear: both; content: ''; display: block;">
-        <a class="nobottomline" href="watch/video1/正常配信チェック">
-            <div class="item border-top-frame">
-                <img class="border-top-img" style="width: 100%;" src="watch/video-img/top/img1/color-bar.webp">
-                <h6 class="frame-text-date">投稿日 6月6日, 2022</h6>
-                <p class="frame-text" style="text-align: center; margin-top: 0px;">正常配信チェック</p>
-            </div>
-        </a>
-    </div>
-    <br>
+            <a class="nobottomline" href="https://github.com/tofu-s-room/tofu-s-room-set-up-windows-version">
+                <div class="item border-top-frame">
+                    <img class="border-top-img" style="width: 100%; " src="advertisement/img/img1/windows-new-soft.png">
+                    <h6 class="frame-text-date">クリックでダウンロードサイトへ</h6>
+                    <p class="frame-text" style="text-align: center; margin-top: 0px;">広告</p>
+                </div>
+            </a>
+            <a class="nobottomline" href="page=/redirect/redirect-miya-kyu-gurupu-top">
+                <div class="item border-top-frame">
+                    <img class="border-top-img" style="width: 100%; " src="advertisement/img/img1/宮急-広告.png">
+                    <h6 class="frame-text-date">サイトにアクセス</h6>
+                    <p class="frame-text" style="text-align: center; margin-top: 0px;">紹介</p>
+                </div>
+            </a>
+            <a class="nobottomline" href="/?広告">
+                <div class="hide item border-top-frame">
+                    <img class="border-top-img" style="width: 100%; " src="advertisement/img/img1/とうふの部屋近日公開.png">
+                    <p class="frame-text" style="text-align: center;">広告</p>
+                </div>
+            </a>
+            <a class="nobottomline" href="watch/video1/tofu_op_2022">
+                <div class="item border-top-frame">
+                    <img class="border-top-img" style="width: 100%;" src="watch/video-img/top/img1/tofu_op.png">
+                    <h6 class="frame-text-date">投稿日 7月14日, 2022</h6>
+                    <p class="frame-text" style="text-align: center; margin-top: 0px;">とうふの部屋オープニング</p>
+                </div>
+            </a>
+        </div>
+        <div style="clear: both; content: ''; display: block;">
+            <a class="nobottomline" href="watch/video1/正常配信チェック">
+                <div class="item border-top-frame">
+                    <img class="border-top-img" style="width: 100%;" src="watch/video-img/top/img1/color-bar.webp">
+                    <h6 class="frame-text-date">投稿日 6月6日, 2022</h6>
+                    <p class="frame-text" style="text-align: center; margin-top: 0px;">正常配信チェック</p>
+                </div>
+            </a>
+        </div>
+        <br>
 
-    <footer style="clear:both;" class="" id="footer">
-        <hr>
-        <p class="footer-text">&copy; 2022 All rights reserved by とうふの部屋,Tofu's room.</p>
-    </footer>
-    <!--1-pop
+        <footer style="clear:both;" class="" id="footer">
+            <hr>
+            <p class="footer-text">&copy; 2022 All rights reserved by とうふの部屋,Tofu's room.</p>
+        </footer>
+
+        <!--1-pop
         <div>
             <input type="checkbox" id="pop-up-1">
             <div class="overlay">
@@ -140,24 +137,33 @@
                 </div>
             </div>
         </div>-->
+        <!-- ローディング画面 -->
+        <div id="loading">
+            <!-- 変更部分 ローディング画像の読み込み-->
+            <img src="assets/gif/walk.gif" alt="">
+        </div>
+        <!-- /#loading -->
 
-    <script type="text/javascript">
-        if (!localStorage['PageAccess']) {
-            location = "beginning.html"; // ここにURLを記載する。
-        }
-        localStorage['PageAccess'] = true; // false; //
-        // localStorage['PageAccess'] = false; // true; // Clearしたい場合
-        if (screen.width <= 235) {
-            document.location = "../../error/px-error.html";
-        }
-    </script>
-    <script type="text/javascript" src="/js/script.js"></script>
-    <script type="text/javascript">
-        // var ua = navigator.userAgent.toUpperCase();
-        //if (ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)) {
-        //    location.href = '/sp/';
-        //  }
-    </script>
+        <script src="js/jquery.js"></script>
+        <script src="js/loading.js"></script>
+        <!--ページ制限-->
+        <script type="text/javascript">
+            if (!localStorage['PageAccess']) {
+                location = "beginning.html"; // ここにURLを記載する。
+            }
+            localStorage['PageAccess'] = true; // false; //
+            // localStorage['PageAccess'] = false; // true; // Clearしたい場合
+            if (screen.width <= 235) {
+                document.location = "../../error/px-error.html";
+            }
+        </script>
+        <script type="text/javascript" src="/js/script.js"></script>
+        <script type="text/javascript">
+            // var ua = navigator.userAgent.toUpperCase();
+            //if (ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)) {
+            //    location.href = '/sp/';
+            //  }
+        </script>
 
 </body>
 
