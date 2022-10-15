@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reference</title>
+    <link href="/css/loading.css" rel="stylesheet">
+</head>
+
+<body class="mv" id="content" onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;" id="top" class="gosic id">
+    <a>https://www.google.com/search?q=</a>
+    <input id="set" type="text" value="">
+    <input type="button" onclick="go()" value="go">
+
+    <script>
+        const ur = document.querySelector("#set");
+
+        function go() {
+            location.href = "https://www.google.com/search?q=" + ur.value;
+        }
+    </script>
+    <!-- ローディング画面 -->
+    <div id="loading">
+        <!-- 変更部分 ローディング画像の読み込み-->
+        <img src="/assets/gif/walk.gif" alt="">
+    </div>
+    <!-- /#loading -->
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/loading.js"></script>
+</body>
+
+</html>

@@ -8,6 +8,7 @@
     <title>2022 とうふの部屋.</title>
     <meta name="description" content="サイトがありません。">
     <meta name="keywords" content="動画,video,fire-com,fire-com-video,top,トップページ">
+    <link href="https://tofu-s-room.github.io/css/loading.css" rel="stylesheet">
     <link href="https://tofu-s-room.github.io/css/font.css" rel="stylesheet">
     <link href="https://tofu-s-room.github.io/css/header.css" rel="stylesheet" />
     <link href="https://tofu-s-room.github.io/css/pop.css" rel="stylesheet">
@@ -39,8 +40,16 @@
     -->
     </header>
     <h2 style="text-align:center; margin-top: 120px; margin-left: 20px;">ページが見つかりません<a href="https://tofu-s-room.github.io/">Topへ戻る</a></h2>
+    <!-- ローディング画面 -->
+    <div id="loading">
+        <!-- 変更部分 ローディング画像の読み込み-->
+        <img src="assets/gif/walk.gif" alt="">
+    </div>
+    <!-- /#loading -->
 
-    <script type="text/javascript" src="/js/script.js"></script>
+    <script src="https://tofu-s-room.github.io/js/jquery.js"></script>
+    <script src="https://tofu-s-room.github.io/js/loading.js"></script>
+    <script type="text/javascript" src="https://tofu-s-room.github.io/js/script.js"></script>
     <script type="text/javascript">
         // var ua = navigator.userAgent.toUpperCase();
         //if (ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)) {
