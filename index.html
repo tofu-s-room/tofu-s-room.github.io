@@ -36,6 +36,21 @@
     <!--サイト名-->
     <meta property="og:site_name" content="とうふの部屋" />
     <meta name="google-site-verification" content="" />
+    <!--manifest-->
+    <link rel="manifest" href="manifest/manifest.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon-192x192.png">
+    <script>
+        window.addEventListener('load', function() {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register("js/sw.js")
+                    .then(function(registration) {
+                        console.log("serviceWorker registed.");
+                    }).catch(function(error) {
+                        console.warn("serviceWorker error.", error);
+                    });
+            }
+        });
+    </script>
 </head>
 
 <body class="mv" id="content" onselectstart="return false;" onmousedown="return false;" id="top" class="gosic id">
@@ -95,7 +110,7 @@
         <div style="clear: both; content: ''; display: block;">
             <a class="nobottomline" href="watch/video1/正常配信チェック">
                 <div class="item border-top-frame">
-                    <img class="border-top-img" style="width: 100%;" src="watch/video-img/top/img1/color-bar.png">
+                    <img class="border-top-img" style="width: 100%;" src="watch/video-img/top/img1/color-bar.webp">
                     <h6 class="frame-text-date">投稿日 6月6日, 2022</h6>
                     <p class="frame-text" style="text-align: center; margin-top: 0px;">正常配信チェック</p>
                 </div>
