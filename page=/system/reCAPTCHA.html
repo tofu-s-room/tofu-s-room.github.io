@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>認証</title>
+    <meta name="data-app-version" content="3.1.0">
+    <meta name="description" content="とうふの部屋,Tofu's roomで動画を楽しみましょう。">
+    <meta name="keywords" content="">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link href="/css/loading.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="/css/font.css" rel="stylesheet">
+    <link href="/css/pc-only.css" rel="stylesheet">
+    <link href="/css/pop.css" rel="stylesheet">
+    <link href="/css/top-wrap.css" rel="stylesheet">
+    <link href="/css/header.css" rel="stylesheet">
+    <meta name="google-site-verification" content="rpTDnmP178BUGGDccV169vUnAtOd1Azop7K3AZLqSU4" />
+    <link rel="image/png" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png">
+    <link rel="icon" type="image/x-icon" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png">
+    <link rel="icon" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png">
+    <link rel="apple-touch-icon" href="https://tofu-s-room.github.io/assets/img/logo/toufukun.png" sizes="180x180">
+    <meta name="google-site-verification" content="DvDLmJNRK4US06i0A7GKzjW2xvZy7kZ8bBM5qVW3jTw" />
+    <!--サイト情報-->
+    <!--記事のタイトル-->
+    <meta property="og:title" content="とうふの部屋." />
+    <!--記事のURL-->
+    <meta property="og:url" content="https://tofu-s-room.github.io/">
+    <!--画像のURL-->
+    <meta property=" og:image " content="https://tofu-s-room.github.io/assets/img/logo/toufukun.png ">
+    <!--記事の説明-->
+    <meta property="og:description " content="とうふの部屋,Tofu 's room 動画を楽しみましょう。" />
+    <!--記事の種類-->
+    <meta property="og:type" content="top" />
+    <!--サイト名-->
+    <meta property="og:site_name" content="とうふの部屋" />
+</head>
+
+<body class="mv" id="content" onselectstart="return false;" onmousedown="return false;" id="top" class="gosic id">
+
+    <header>
+        <a href="/">
+            <img style="height: 25px;" src="/assets/img/logo/toufunoheya-head.png">
+        </a>
+
+        <ul>
+            <!--<li><label class="white nobottomline open" for="pop-up-1">メニュー</label></li>
+                <li><a style="text-align: center;" class="white nobottomline" href="#">メニュー</a></li>-->
+        </ul>
+
+    </header>
+    <h2 style="margin-top: 140px; text-align: center;">こんにちはとうふくんです、ご利用頂きありがとうございます<br>こちらのボタンを押してください。</h2>
+    <center>
+        <div style="margin-top: 60px;" class="g-recaptcha" data-sitekey="6LdWRckiAAAAACq9P-Q-E_X-GfYR_bSriRjeVFTD"></div>
+    </center>
+    <!-- ローディング画面 -->
+    <div id="loading">
+        <!-- 変更部分 ローディング画像の読み込み-->
+        <img src="/assets/gif/walk.gif" alt="">
+    </div>
+    <!-- /#loading -->
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/loading.js"></script>
+    <!--ページ制限-->
+    <script type="text/javascript">
+        if (!localStorage['PageAccess']) {
+            location = "beginning.html"; // ここにURLを記載する。
+        }
+        localStorage['PageAccess'] = true; // false; //
+        // localStorage['PageAccess'] = false; // true; // Clearしたい場合
+        if (screen.width <= 235) {
+            document.location = "../../error/px-error.html";
+        }
+    </script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script type="text/javascript">
+        // var ua = navigator.userAgent.toUpperCase();
+        //if (ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)) {
+        //    location.href = '/sp/';
+        //  }
+    </script>
+
+</body>
+
+</html>
+
+</html>

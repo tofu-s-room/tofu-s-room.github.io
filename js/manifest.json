@@ -1,0 +1,14 @@
+{
+    "name": "tofu's room",
+    "short_name": "tofu",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#00000000",
+    "theme_color": "#FFFFFF",
+    "icons": [{
+        "src": "https://tofu-s-room.github.io/assets/img/logo/toufukun.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }]
+}
