@@ -10,7 +10,6 @@
         setTimeout("location.href='https://tofu-s-room.github.io/?from-miya-kyu-gurupu'", 1000 * 0);
     </script>
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 </head>
 
 <body class="mv" id="content" onselectstart="return false;" onmousedown="return false;" id="top" class="gosic id">
@@ -34,7 +33,14 @@
     </noscript>
     <hr>
     <h3 style="margin-top: 20px; text-align: center;">
-        <p>&copy; 2022 とうふの部屋,Tofu's room部屋.</p>
+        <p class="footer-text">&copy;
+            <script type="text/javascript">
+                var today = new Date();
+                var year = today.getFullYear();
+                document.write("2022-" + year);
+            </script> All rights reserved by とうふの部屋,Tofu's room.
+
+        </p>
     </h3>
 
     <script src="/js/jquery.js"></script>
